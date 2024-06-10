@@ -31,4 +31,3 @@ function toggleContent(id) {
     }
 }
 
-
