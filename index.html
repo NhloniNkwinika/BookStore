@@ -49,12 +49,17 @@
             <img src="assets/mainpic.jpg" alt="main-pic">
         </div>
     </div>
+    <div class="top-category category">
+        <h1>Top Bestsellers</h1>
+        <h1>______________________________________________________________________________________</h1>
     <div class="books-on-shelf ">
         <div class="mySlides fade">
             <img src="assets/Book1.jpg" alt="">
                 <div class="love-icon">
                     <i class="fa-solid fa-heart"></i>
                  </div>
+                 <h3>The Alchemist</h3>
+                 <h4>Paulo Coelho</h4>
             <h2>R200</h2>
             <button class="btn addBtn">
                 Add to Cart
@@ -65,6 +70,8 @@
             <div class="love-icon">
                 <i class="fa-solid fa-heart"></i>
              </div>
+             <h3>Dreams From My Father</h3>
+                 <h4>Barack Obama</h4>
             <h2>R150</h2>
             <button class="btn addCart">Add to Cart</button>
         </div>
@@ -74,6 +81,8 @@
             <div class="love-icon">
                     <i class="fa-solid fa-heart"></i>
              </div>
+             <h3>To Kill A Mocking Bird</h3>
+                 <h4>Harper Lee</h4>
             <h2>R210</h2>
             <button class="btn addCart">Add to Cart</button>
         </div>
@@ -83,16 +92,136 @@
             <div class="love-icon">
                 <i class="fa-solid fa-heart"></i>
              </div>
+             <h3>Steve Jobs Biography</h3>
+                 <h4>Michael B. Bicraft</h4>
             <h2>R190</h2>
             <button class="btn addCart">Add to Cart</button>
         </div>
        
     </div>
+
+    </div>
+
+
+
+    <div class="top-category category">
+        <h1>Cookery Bestsellers</h1>
+        <h1>______________________________________________________________________________________</h1>
+    <div class="books-on-shelf ">
+        <div class="mySlides fade">
+            <img src="assets/cook1.jpg" alt="">
+                <div class="love-icon">
+                    <i class="fa-solid fa-heart"></i>
+                 </div>
+                 <h3>The Alchemist</h3>
+                 <h4>Paulo Coelho</h4>
+            <h2>R200</h2>
+            <button class="btn addBtn">
+                Add to Cart
+            </button>
+        </div>
+        <div class="mySlides fade ">
+            <img src="assets/cook2.jpg" alt="">
+            <div class="love-icon">
+                <i class="fa-solid fa-heart"></i>
+             </div>
+             <h3>Dreams From My Father</h3>
+                 <h4>Barack Obama</h4>
+            <h2>R150</h2>
+            <button class="btn addCart">Add to Cart</button>
+        </div>
+       
+        <div class="mySlides fade ">
+            <img src="assets/cook3.jpg" alt="">
+            <div class="love-icon">
+                    <i class="fa-solid fa-heart"></i>
+             </div>
+             <h3>To Kill A Mocking Bird</h3>
+                 <h4>Harper Lee</h4>
+            <h2>R210</h2>
+            <button class="btn addCart">Add to Cart</button>
+        </div>
+     
+        <div class="mySlides fade ">
+            <img src="assets/cook4.jpg" alt="">
+            <div class="love-icon">
+                <i class="fa-solid fa-heart"></i>
+             </div>
+             <h3>Steve Jobs Biography</h3>
+                 <h4>Michael B. Bicraft</h4>
+            <h2>R190</h2>
+            <button class="btn addCart">Add to Cart</button>
+        </div>
+       
+    </div>
+
+    </div>
+
+
+
+
+
     <footer>
-        <div class="footer-content">
-            <div class="1st-f"></div>
-            <div class="2nd-f"></div>
-            <div class="3rd-f"></div>
+        <div class="footer-container">
+            <div class="footer-section first-f" id="section1">
+               <h3 onclick="toggleContent('content1')">CUSTOMER CARE</h3>
+               <div class="content" id="content1">
+                <p>
+                    <br>
+                   <br>
+                   TOLL FREE SA ONLY <br>
+                   0844 332 550 <br>
+                   <br>
+                   <br>
+                   INTERNATIONAL <br>
+                   +27 (0) 87 365 4677 <br>
+                   <br>
+                   EMAIL <br>
+                   info@kojaBooks.co.za <br>
+                   <br>
+                   CONTACT HOURS <br>
+                   Monday to Friday <br>
+                   7:30AM -16:30PM <br>
+                   Saturday <br>
+                   8:00AM -13:00PM <br>
+               </p>
+               </div>
+               
+            </div>
+            <div class="footer-section" id="section2">
+                <h3 onclick="toggleContent('content2')">CUSTOMER SERVICES</h3>
+                <br>
+                <br>
+                <div class="content" id="content2">
+                    <a href="">Track Order</a>
+                    <br>
+                    <a href="">Delivery Information</a>
+                    <br>
+                    <a href="">Guarantee and Returns</a>
+                    <br>
+                    <a href="">Banking Details</a>
+                    <br>
+                    <a href="">Corporate Clients</a>
+                    <br>
+                    <a href="">Vendor Registrations</a>
+                    <br>
+                    <a href="">FAQs</a>
+                </div>
+            </div>
+
+
+
+            <div class="footer-section">
+                <h4>SUBSCRIBE</h4>
+                <br>
+                <p>Get exclusive deals, previews and updates when you subscribe.</p>
+                <br>
+                <form class="subscribe-form">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
         </div>
     </footer>
    <script src="script.js"></script>

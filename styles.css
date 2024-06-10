@@ -224,6 +224,7 @@ body {
 .books-on-shelf {
 
     display: flex;
+    margin: 30px;
     flex-wrap: wrap;
     gap: 10px;
     padding: 20px;
@@ -349,4 +350,108 @@ body {
     
     padding: 10px;
     transition: 0.2s ease-in-out;
+}
+
+footer {
+    background-color: #521a31;
+    margin-top: 20px;
+    color: white;
+    padding: 20px 0;
+    margin-left: 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    padding: 0 20px;
+    flex-wrap: wrap; 
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px; 
+    margin: 10px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.content {
+    display: block;
+}
+
+
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .content {
+        display: none; 
+    }
+}
+
+.footer-section .first-f{
+    margin-left: 0;
+}
+.first-f {
+    padding: 10px;
+    background-color: #1f0610;
+    color: rgb(243, 239, 239);
+    
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe-form input, .subscribe-form button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.subscribe-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.subscribe-form button:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .subscribe-form input, .subscribe-form button {
+        width: calc(100% - 10px); /* Adjust width for mobile view */
+    }
+}
+.category h1{
+    font-family: "Oswald", sans-serif;
+    margin-left: 50px;
 }
